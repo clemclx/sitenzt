@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Abiflizera - Le nouveau NZT</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/anim_style.css">
+	<title>Abiflizera - Le nouveau NZT</title>
+	<meta name="Abiflizera" content="Bienvenue sur la page pharmaceutique de la toute nouvelle molécule Abiflizera">
+	<link rel="stylesheet" type="text/css" href="anim_style.css">
 	<script type="text/javascript" src="js/anim.js"></script>
 	<script type="text/javascript" src="js/EasePack.min.js"></script>
 	<script type="text/javascript" src="js/rAF.js"></script>
 	<script type="text/javascript" src="js/TweenLite.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 <body>
 
@@ -17,61 +18,76 @@
 
 	<div id="large-header" class="large-header">
   		<canvas id="demo-canvas"></canvas>
-  		<h1 class="main-title"><strong>Abiflizera : Le NZT révolutionné</strong></h1>
+  		<div class="content">
+  			<div class="visible">
+  				<p id="NZTbleu">
+  					NZT > 
+  				</p>
+  				<ul id="listeder">
+  					<li>Abiflizera</li>
+  					<li>Intelligence</li>
+  					<li>Richesse</li>
+  					<li>Santé</li>
+  				</ul>
+  			</div>
+  		</div>
+  		<script type="text/javascript">
+  				$(document).ready(function(){
+  					$('.hide1').hide();
+  					$("#soon").hide();
+  					$(function() {
+  						setTimeout(function(){
+  							$("#soon").slideDown();
+  						}, 2650);
+  					});
+  				});
+  		</script>
+  		<div id="soon">
+  			<br>
+  			<div id="clockdiv">
+				<div><span id="days"></span><div class="smalltext">Jours</div></div>
+				<div><span id="hours"></span><div class="smalltext">Heures</div></div>
+				<div><span id="minutes"></span><div class="smalltext">Minutes</div></div>
+				<div><span id="seconds"></span><div class="smalltext">Secondes</div></div>
+			</div>
+  		</div>
 		<script type="text/javascript" src="js/anim.js"></script>
+		<script type="text/javascript" src="js/timer.js"></script>
 	</div>
-
+	
 	<!-- fin home page -->
 
-	<div id="nav1">
-		<div id="t1">efefesfes</div>
-		<div id="b1">yjyjjyj</div>
-		<div id="t2">cbbcvbvcb</div>
-		<div id="b2">grhyjuk</div>
-		<div id="t3">ghdwhtfyj</div>
-		<div id="b3">fesgtrht</div>
+	<div class="hide1">
+		<h2>abiflizera</h2> 
+
+	est le nom officiel du fameux <strong>NZT</strong>.
+	Cette petite pilule changera votre vie. Developper pendant des année,
+	ce complément allimentaire va booster votre carrière.
+	Devenez maître de vous même et utilisé 100 pour cent de votre cerveaux avec notre molécule légal et sans danger.
+	Garentie sans effet secondaire, inscrivez vous dès maintenant pour changer votre vie. 
+	On vous envoie un échantillon gratuit de notre produit cliniquement tester.
+	Retrouvez les temoignage des sujet qui ont tester et developper avec nous ce produit.
+
+	Nous n'allons pas vous rassurez sur notre produit, constatez-vous même les effets bénéfique en demandant dès maintenant
+	un echantillons gratuit.
 	</div>
-	<script type="text/javascript">
+	<div class="hide1">
+		<h3>Découverte du Abiflizera - NZT</h3>
 
-	$(document).ready(function() {
-		// on cache tout, ca change pas, c'est l'initialisation
-		$("#t1").hide();
-		$("#b1").hide();
-		$("#t2").hide();
-		$("#b2").hide();
-		$("#t3").hide();
-		$("#b3").hide();
-		$("#t4").hide();
-		$("#b4").hide();
+		Le docteur Bergeur à découvert la molécumes abiflizera en 2012 après plus de 20 de recherche
+		sur le fonctionement des neurone. Ses recherche nous à démontrer que le cerveaux humain était utilisé seulement
+		a 40% de ses capacité. 
+		Le <strong>NZT</strong> est un dérivé de l'abiflizera. Cette molécule est issu d'une plante amazonienne rare et protéger. Dans une démarche de protection de l'environement
+		nous ne déliverons pas le nom de cette plante.
+		Aujourd'hui les traveau du Docteur Bergeur a permis au laboratoire boiron de synthétisé cette molécule et d'obtenir le NZT.
+		Aucun nos patients ayant tester l'abiflizera n'a subit des effets secondaire notable, seulement des maux de tête.
+		Nous vous garentisont un produit éfficace qui donnera du sens a toute vos idée.
 
-		//la seule fonction sur le scroll 
-		$(function () {
-			$(window).scroll(function () {
-
-				console.log($(this).scrollTop());
-
-				//On inverse : on commence par si on est a moins de 400
-				if ($(this).scrollTop() < 100 ) 
-				{
-				    $('#b1').fadeOut(500); // on cache ( i.e on vient de remonté trop haut)
-				}
-				else if ($(this).scrollTop() < 4650 ) // on est a moins de 650 ( mais plus de 400)
-				{
-				$('#b1').fadeIn(500); //on montre b1
-				$('#t1').fadeOut(300);//on cache t1
-				}
-				else ($(this).scrollTop() < 4800 )// on est a moins de 800 ( mais plus de 650)
-				{
-				$('#t1').fadeIn(300); //on montre t1
-				$('#b2').fadeOut(500); //on cache b2
-				}
-			})
-		})
-
-
-
-
-});
-	</script>
+		"L'humain est capable de grande chose, grâce a l'abiflizera vous pourrez les rendre concré. Lorsque je suis sous Abiflizera mes senses sont tous en éveille et mes idée ne sont plus flou
+		[...] l'Abiflizera a changer ma vie, permetez-moi de révolutionné la votre !" Dr. Bergeur
+		<a class="hide1" href="https://www.facebook.com/nztbyben/?fref=ts">NZT - Facebook</a>
+		<a class="hide1" href="https://twitter.com/search?q=%23NZT">NZT - Twitter</a>
+		<a class="hide1" href="https://www.google+.com">NZT - Google+</a>
+	</div>
 </body>
 </html>
